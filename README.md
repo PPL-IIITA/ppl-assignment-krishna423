@@ -6,6 +6,7 @@ Java
 Kali linux
 #Build(on Terminal)
 ques
+
 $cd ppl-assignment-krishna423-master/ques/src/Main_file
 
 $javac *.java
