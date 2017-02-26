@@ -20,3 +20,9 @@ $cd ppl-assignment-krishna423-master/ques/src
 $cat couple.csv
 
 $cat Happi_compat.csv
+
+$cat boys_data.csv
+
+$cat girls_data.csv
+
+$cat gift_data.csv
