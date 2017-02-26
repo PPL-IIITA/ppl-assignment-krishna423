@@ -26,3 +26,6 @@ $cat boys_data.csv
 $cat girls_data.csv
 
 $cat gift_data.csv
+#Class-Diagram:
+class.pdf
+
