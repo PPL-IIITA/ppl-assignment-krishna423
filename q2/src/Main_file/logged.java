@@ -20,7 +20,7 @@ public class logged {
     { 
 //        String str1[]=new String[10];
  //       String str2[]=new String[10];
-        String s="is assinged to";
+        String s="is boyfriend of";
         if(i!=99999){
             str1[i]=sa;
             str2[i]=sb;
@@ -34,7 +34,7 @@ public class logged {
                 
                 FileWriter pair = new FileWriter("couple.csv");
                 for(j=0;j<=x;j++){
-                    pair.write(str1[j] + "," +s +","+ str2[j] +"\n");
+                    pair.write(str1[j] + "  " +s +"  "+ str2[j] +"\n");
                 }
                 pair.close();
             }

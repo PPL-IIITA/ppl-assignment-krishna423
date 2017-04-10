@@ -86,8 +86,8 @@ public class Csv_generate {
             Random rand =new Random();
             for(i=0;i<count;i++){
                 sort_gift[i]=new gift();
-                sort_gift[i].value=rand.nextInt(8)+1;
-                sort_gift[i].price=rand.nextInt(10)+1;
+                sort_gift[i].value=rand.nextInt(120)+1;
+                sort_gift[i].price=rand.nextInt(150)+1;
                 tp=rand.nextInt(3);
                 switch (tp) {
                 case 0:

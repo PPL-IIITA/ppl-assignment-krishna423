@@ -149,7 +149,7 @@ public class testing_utility {
                         {
                            
                             g_bgt=g_bgt-gft[k].price;
-                            cpl[j].gift=k;
+                            cpl[j].got_gift=k;
                             if(cpl[j].type.equals("choosy")){
                                 sum=sum+gft[k].price;
                         //    System.out.println("c");
@@ -191,7 +191,7 @@ public class testing_utility {
        girls tmp =new girls();
         for(i=0;i<cpl_num-1;i++){
             for(j=i+1;j<cpl_num;j++){
-                if(cpl[i].tot_happy>cpl[j].tot_happy){
+                if(cpl[i].tot_happy<cpl[j].tot_happy){
                     tmp=cpl[i];
                     cpl[i]=cpl[j];
                     cpl[j]=tmp;
@@ -204,18 +204,47 @@ public class testing_utility {
     //    if(kk>cpl_num)
     //        kk=cpl_num;
             int kk=8;
+            int l;
     //        System.out.println("let k=8");
             try{
                 FileWriter pair = new FileWriter("Happy_couple.csv");
-                pair.write("happiness            compatibility"+"\n");
+                
+                pair.write("        happy couple   " + "\n");
                 for(j=0;j<kk;j++){
-                    pair.write(cpl[j].tot_happy + ",                " + cpl[j].tot_com + "\n");
+                    pair.write(b[cpl[j].assign_boy].name + "-------------------" + cpl[j].name + "\n");
+                    pair.write("            gifts exchanged          "+ "\n");
+                    for(l=0;l<cpl[j].got_gift;l++){
+                         pair.write(gft[l].price + " , " + gft[l].value +" , " + gft[l].type   + "\n");
+                    }
                 }
                 pair.close();
             }
             catch(Exception ee)
             {}
-
+        for(i=0;i<cpl_num-1;i++){
+            for(j=i+1;j<cpl_num;j++){
+                if(cpl[i].tot_com<cpl[j].tot_com){
+                    tmp=cpl[i];
+                    cpl[i]=cpl[j];
+                    cpl[j]=tmp;
+                  }
+            }
+        } 
+        try{
+                FileWriter pair = new FileWriter("Compatible_couple.csv");
+                pair.write("        Compatible couple   " + "\n");
+                for(j=0;j<kk;j++){
+                    pair.write(b[cpl[j].assign_boy].name + "-------------------" + cpl[j].name + "\n");
+                    pair.write("            gifts exchanged          "+ "\n");
+                    for(l=0;l<cpl[j].got_gift;l++){
+                         pair.write(gft[l].price + " , " + gft[l].value +" , " + gft[l].type   + "\n");
+                    }
+                }
+                pair.close();
+            }
+            catch(Exception ee)
+            {}    
+        
         }  
         
 }         
