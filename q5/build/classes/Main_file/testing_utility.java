@@ -25,13 +25,17 @@ public class testing_utility {
     girls g[] = new girls[10000];
     boys cpl_b[]=new boys[10000];
     girls cpl_g[]=new girls[10000];
-    gift gft[]=new gift[10000];
     girls cpl[]=new girls[10000];
+    gift gft[]=new gift[10000];
+    couple_ex coupled[]=new couple_ex[10000];
     void boys_read(int num){
+    //void read_csv_file(int boy_num,int girl_num){
+    //    boys b[] = new boys[boy_num+1];
         int i=0;
         String check="";
 	BufferedReader buffer = null;
 		try{
+                   //     int i=0;
 			buffer = new BufferedReader(new FileReader("boys_data.csv"));
 			while((check = buffer.readLine() )!= null){
 				String[] read_boy_csv = check.split(",");
@@ -50,18 +54,10 @@ public class testing_utility {
                 catch(Exception e){
                     
                 }
-                int j;
-        boys tmp =new boys();
-        for(i=0;i<y-1;i++){
-            for(j=i+1;j<y;j++){
-                if(b[i].attractiveness>b[j].attractiveness){
-                    tmp=b[i];
-                    b[i]=b[j];
-                    b[j]=tmp;
-                  }
-            }
-        }
-        
+    //  int l;
+    //  for( l=0;l<10;l++)   
+    //                System.out.println(b[l].attractiveness);
+    //  System.out.println("a");
     }
         void girls_read(int num){        
     //    girls g[] = new girls[girl_num+1];
@@ -88,70 +84,45 @@ public class testing_utility {
                 catch(Exception e){
                     
                 }
-        girls tmp =new girls();
-        int i;
-        for(i=0;i<y-1;i++){
-            for(j=i+1;j<y;j++){
-                if(g[i].maintenancebudget>g[j].maintenancebudget){
-                    tmp=g[i];
-                    g[i]=g[j];
-                    g[j]=tmp;
-                  }
-            }
-        }  
     }
         void couple_read(){
         //    System.out.println(b[0].attractiveness +"  "+ g[0].attractiveness);
                       logged couple=new logged();
-                      int i=0,j=0,k=0,count=0,chk=0;
-                      for(i=0;i<y/2;i++){
-                          for(j=0;j<y;j++)
-                          {
-                              if(g[j].status.equals("single")){
-                                  g[j].status="couple";
-                                  cpl[count]=g[i];
-                                  break;
-                              }
-                          }
-                          for(k=0;k<x;k++){
-                            if(g[j].maintenancebudget <= b[k].budget && b[k].attractiveness >= g[j].req_attractivenes && b[k].status.equals("single")){
-                                  g[j].assign_boy=k;
-                                  b[k].status="couple";
-                                  couple.assign_boy(count++,b[k].name,g[j].name);
-                                  break;
-                           }
-                          
-                          }
-                          for(j=0;j<x;j++)
-                          {
-                              if(b[j].status.equals("single")){
-                                  b[j].status="couple";
-                                  cpl[count]=g[i];
-                                  break;
-                              }
-                          }
-                          int tmp=0,att=0,t=0;
-                          for(k=0;k<y;k++){
-                            if(g[k].attractiveness>att && g[k].maintenancebudget <= b[j].budget && b[j].attractiveness >= g[k].req_attractivenes && g[k].status.equals("single")){
-                                t=1;
-                                tmp=k;
-                                att=g[k].attractiveness;
-                             }
-                          }
-                          if(t==1){
-                                g[tmp].assign_boy=j;
-                                g[tmp].status="couple";
-                                couple.assign_boy(count++,b[j].name,g[tmp].name);
-                          }
-                         
-                }
-                couple.assign_boy(99999, "a", "b");
-             //   System.out.println(count);
-                cpl_num=count;
+                      int i,j,count=0,chk=0,k=0;
+                      
+                    //  System.out.printf(x +""+ y);
+                     for(i=0;i<y;i++){
+                         g[i].assign_boy=0;
+                            for(j=0;j<x;j++){
+                                if(g[i].maintenancebudget <= b[j].budget && b[j].attractiveness >= g[i].req_attractivenes && b[j].status.equals("single")){      
+     //                               System.out.println(b[j].attractiveness +"  "+ g[i].attractiveness);
+                                    cpl_b[temp]=b[j];
+                                    cpl_b[temp].happiness=0;
+                                    
+                                    cpl_g[temp]=g[i];
+                                    cpl_g[temp].happiness=0;
+                                    temp++;
+                                    b[j].status="assign_boyfriend";
+                                    g[i].assign_boy=j;
+                                    cpl[k++]=g[i];
+                                  //  System.out.println("cdf");
+                                    couple.assign_boy(count++,b[j].name,g[i].name);
+                                    chk=count;
+                                    break;
+                                }
+                            }
+                        }
+                     cpl_num=k;
+                       couple.assign_boy(99999, "a", "b");
+                 
+         // gift_exchange();
         }
         void gift_exchange()
         {
-        int i=0,j=0,k;
+    //        int i;
+    //        for(i=0;i<temp;i++)
+    //                System.out.println(cpl_g[i].type+" "+cpl_g[i].happiness+" "+cpl_g[i].name+" "+cpl_g[i].intelligence);      
+         int i=0,j=0,k;
          String check="";
          BufferedReader buffer = null;
 		try{
@@ -213,9 +184,7 @@ public class testing_utility {
                     if(b[a].type.equals("Generous")){
                         b[a].happiness=cpl[j].happiness;
                     }
-                    cpl[j].tot_happy=Math.abs(cpl[j].happiness+b[a].happiness);
-                    if( cpl[j].tot_happy<0)
-                        System.out.println( cpl[j].tot_happy);
+                    cpl[j].tot_happy=cpl[j].happiness+b[a].happiness;
                     cpl[j].tot_com=Math.abs(cpl[j].intelligence-b[a].intelligence)+Math.abs(cpl[j].attractiveness-b[a].attractiveness);
                 }
         
@@ -229,30 +198,64 @@ public class testing_utility {
                   }
             }
         }     
-        
-    //    System.out.println("Enter happist couple num  k= ");
-    //    Scanner sc=new Scanner(System.in);
-     //   int kkk=sc.nextInt();
-     //   if(kkk>cpl_num)
-            //kkk=cpl_num;
-            int kkk=8;
+        int t=8;
+        int s=0;
+        for(i=0;i<cpl_num;i++)
+        {
+            if(cpl[i].tot_happy>t){
+                s=i;
+                break;
+            }
+        }
             try{
                 FileWriter pair = new FileWriter("Happy_couple.csv");
-                pair.write("          happy couple    "+"\n");
-                for(j=0;j<kkk;j++){
-                    pair.write(b[cpl[j].assign_boy].name + "----------------" + cpl[j].name + "\n");
+                pair.write("            happy couple         "+"\n");
+                for(j=s;j<cpl_num;j++){
+                    pair.write(b[cpl[j].assign_boy].name + ",                " + cpl[j].name+ "\n");
                 }
                 pair.close();
             }
             catch(Exception ee)
-            {
-                System.out.println(ee);
-            }
-        
-            
-         //   System.out.println(cpl_num);
-    }
+            {}
         
     
+    }
+
+        void newassign(){
+      //      System.out.println("Enter value of k ___  for breakup");
+      //      Scanner sc=new Scanner(System.in);
+      //  int kk=sc.nextInt();
+      //  if(kk>cpl_num)
+      //      kk=cpl_num;
+      int kk=8;
+        int i;
+        for(i=0;i<kk;i++){
+            cpl[i].status="single";
+            b[cpl[i].assign_boy].status="single";
+       }
+        //    System.out.println(b[0].attractiveness +"  "+ g[0].attractiveness);
+                      logged couple=new logged();
+                      int j,count=0,chk=0,k=0;
+                      
+                    //  System.out.printf(x +""+ y);
+                     for(i=0;i<kk;i++){
+                         cpl[i].assign_boy=0;
+                            for(j=0;j<x;j++){
+                                if(cpl[i].maintenancebudget <= b[j].budget && b[j].attractiveness >= cpl[i].req_attractivenes && b[j].status.equals("single")){      
+     //                               System.out.println(b[j].attractiveness +"  "+ g[i].attractiveness);
+                                    b[j].status="assign_boyfriend";
+                                    cpl[i].assign_boy=j;
+                                 //     System.out.println("cdf");
+                                    couple.new_assign_boy(count++,b[j].name,cpl[i].name);
+                                    chk=count;
+                                    break;
+                                }
+                            }
+                        }
+                     cpl_num=k;
+                       couple.new_assign_boy(99999, "a", "b");
+                 
+         // gift_exchange();
+        }
 }         
      
