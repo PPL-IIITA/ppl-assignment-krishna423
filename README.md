@@ -5,7 +5,7 @@ Java
 # Tested on:
 Kali linux
 # Build(on Terminal)
-#for q1
+# for q1
 
 $cd ppl-assignment-krishna423-master/q1/src/Main_file
 
