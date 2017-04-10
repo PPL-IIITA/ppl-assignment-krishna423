@@ -93,35 +93,31 @@ $java Main_file.Main_file
 $cat couple.csv
 
 # Class-Diagram:
-# forq1
+# for q1
 $cd ppl-assignment-krishna423-master/q1
 
 $ls
-# forq2
+# for q2
 $cd ppl-assignment-krishna423-master/q2
 
 $ls
-# forq2
-$cd ppl-assignment-krishna423-master/q2
-
-$ls
-# forq3
+# for q3
 $cd ppl-assignment-krishna423-master/q3
 
 $ls
-# forq4
+# for q4
 $cd ppl-assignment-krishna423-master/q4
 
 $ls
-# forq5
+# for q5
 $cd ppl-assignment-krishna423-master/q5
 
 $ls
-# forq6
+# for q6
 $cd ppl-assignment-krishna423-master/q6
 
 $ls
-# forq7
+# for q7
 $cd ppl-assignment-krishna423-master/q7
 
 $ls
