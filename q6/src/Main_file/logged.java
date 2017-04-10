@@ -34,7 +34,7 @@ public class logged {
                 
                 FileWriter pair = new FileWriter("couple.csv");
                 for(j=0;j<=x;j++){
-                    pair.write(str1[j] + "," +s +","+ str2[j] +"\n");
+                    pair.write(str1[j] + "   " +s +"  "+ str2[j] +"\n");
                 }
                 pair.close();
             }
@@ -62,7 +62,7 @@ public class logged {
                 
                 FileWriter pair = new FileWriter("after_breakup_couple.csv");
                 for(j=0;j<=x;j++){
-                    pair.write(str1[j] + "," +s +","+ str2[j] +"\n");
+                    pair.write(str1[j] + "  " +s +"  "+ str2[j] +"\n");
                 }
                 pair.close();
             }

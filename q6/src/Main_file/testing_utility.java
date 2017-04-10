@@ -191,7 +191,7 @@ public class testing_utility {
        girls tmp =new girls();
         for(i=0;i<cpl_num-1;i++){
             for(j=i+1;j<cpl_num;j++){
-                if(cpl[i].tot_happy>cpl[j].tot_happy){
+                if(cpl[i].tot_happy<cpl[j].tot_happy){
                     tmp=cpl[i];
                     cpl[i]=cpl[j];
                     cpl[j]=tmp;
@@ -209,9 +209,9 @@ public class testing_utility {
         }
             try{
                 FileWriter pair = new FileWriter("Happy_couple.csv");
-                pair.write("happiness            compatibility"+"\n");
+                pair.write("            happy couple         "+"\n");
                 for(j=s;j<cpl_num;j++){
-                    pair.write(cpl[j].tot_happy + ",                " + cpl[j].tot_com + "\n");
+                    pair.write(b[cpl[j].assign_boy].name + ",                " + cpl[j].name+ "\n");
                 }
                 pair.close();
             }
