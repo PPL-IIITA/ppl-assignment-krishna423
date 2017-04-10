@@ -1,5 +1,5 @@
-        happy couple   
-B32-------------------G20
+        Compatible couple   
+B15-------------------G32
             gifts exchanged          
 1 , 43 , Utility
 2 , 20 , Essential
@@ -19,13 +19,7 @@ B32-------------------G20
 24 , 3 , Utility
 25 , 14 , Essential
 30 , 30 , Utility
-30 , 54 , Utility
-30 , 10 , Utility
-32 , 68 , Utility
-32 , 61 , Luxury
-33 , 8 , Utility
-34 , 97 , Luxury
-B25-------------------G42
+B4-------------------G18
             gifts exchanged          
 1 , 43 , Utility
 2 , 20 , Essential
@@ -44,77 +38,6 @@ B25-------------------G42
 20 , 100 , Utility
 24 , 3 , Utility
 25 , 14 , Essential
-30 , 30 , Utility
-30 , 54 , Utility
-B57-------------------G43
-            gifts exchanged          
-1 , 43 , Utility
-2 , 20 , Essential
-4 , 31 , Luxury
-6 , 50 , Utility
-10 , 112 , Utility
-11 , 74 , Utility
-11 , 47 , Luxury
-13 , 68 , Utility
-15 , 27 , Essential
-15 , 87 , Utility
-18 , 100 , Utility
-18 , 38 , Essential
-19 , 47 , Essential
-19 , 55 , Utility
-20 , 100 , Utility
-24 , 3 , Utility
-25 , 14 , Essential
-30 , 30 , Utility
-30 , 54 , Utility
-30 , 10 , Utility
-32 , 68 , Utility
-B3-------------------G11
-            gifts exchanged          
-1 , 43 , Utility
-2 , 20 , Essential
-4 , 31 , Luxury
-6 , 50 , Utility
-10 , 112 , Utility
-11 , 74 , Utility
-11 , 47 , Luxury
-13 , 68 , Utility
-15 , 27 , Essential
-15 , 87 , Utility
-18 , 100 , Utility
-18 , 38 , Essential
-19 , 47 , Essential
-19 , 55 , Utility
-20 , 100 , Utility
-24 , 3 , Utility
-25 , 14 , Essential
-30 , 30 , Utility
-30 , 54 , Utility
-30 , 10 , Utility
-B6-------------------G19
-            gifts exchanged          
-1 , 43 , Utility
-2 , 20 , Essential
-4 , 31 , Luxury
-6 , 50 , Utility
-10 , 112 , Utility
-11 , 74 , Utility
-11 , 47 , Luxury
-13 , 68 , Utility
-15 , 27 , Essential
-15 , 87 , Utility
-18 , 100 , Utility
-B0-------------------G1
-            gifts exchanged          
-1 , 43 , Utility
-2 , 20 , Essential
-4 , 31 , Luxury
-6 , 50 , Utility
-10 , 112 , Utility
-11 , 74 , Utility
-11 , 47 , Luxury
-13 , 68 , Utility
-15 , 27 , Essential
 B17-------------------G13
             gifts exchanged          
 1 , 43 , Utility
@@ -140,7 +63,7 @@ B17-------------------G13
 32 , 68 , Utility
 32 , 61 , Luxury
 33 , 8 , Utility
-B58-------------------G45
+B29-------------------G10
             gifts exchanged          
 1 , 43 , Utility
 2 , 20 , Essential
@@ -164,3 +87,81 @@ B58-------------------G45
 30 , 10 , Utility
 32 , 68 , Utility
 32 , 61 , Luxury
+33 , 8 , Utility
+B8-------------------G25
+            gifts exchanged          
+1 , 43 , Utility
+2 , 20 , Essential
+4 , 31 , Luxury
+6 , 50 , Utility
+10 , 112 , Utility
+11 , 74 , Utility
+11 , 47 , Luxury
+13 , 68 , Utility
+15 , 27 , Essential
+15 , 87 , Utility
+18 , 100 , Utility
+18 , 38 , Essential
+19 , 47 , Essential
+B7-------------------G22
+            gifts exchanged          
+1 , 43 , Utility
+2 , 20 , Essential
+4 , 31 , Luxury
+6 , 50 , Utility
+10 , 112 , Utility
+11 , 74 , Utility
+11 , 47 , Luxury
+13 , 68 , Utility
+15 , 27 , Essential
+15 , 87 , Utility
+18 , 100 , Utility
+18 , 38 , Essential
+19 , 47 , Essential
+19 , 55 , Utility
+20 , 100 , Utility
+24 , 3 , Utility
+25 , 14 , Essential
+B13-------------------G27
+            gifts exchanged          
+1 , 43 , Utility
+2 , 20 , Essential
+4 , 31 , Luxury
+6 , 50 , Utility
+10 , 112 , Utility
+11 , 74 , Utility
+11 , 47 , Luxury
+13 , 68 , Utility
+15 , 27 , Essential
+15 , 87 , Utility
+18 , 100 , Utility
+18 , 38 , Essential
+19 , 47 , Essential
+19 , 55 , Utility
+20 , 100 , Utility
+24 , 3 , Utility
+25 , 14 , Essential
+30 , 30 , Utility
+30 , 54 , Utility
+30 , 10 , Utility
+B21-------------------G38
+            gifts exchanged          
+1 , 43 , Utility
+2 , 20 , Essential
+4 , 31 , Luxury
+6 , 50 , Utility
+10 , 112 , Utility
+11 , 74 , Utility
+11 , 47 , Luxury
+13 , 68 , Utility
+15 , 27 , Essential
+15 , 87 , Utility
+18 , 100 , Utility
+18 , 38 , Essential
+19 , 47 , Essential
+19 , 55 , Utility
+20 , 100 , Utility
+24 , 3 , Utility
+25 , 14 , Essential
+30 , 30 , Utility
+30 , 54 , Utility
