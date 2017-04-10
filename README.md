@@ -15,7 +15,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q2
+# for q2
 
 $cd ppl-assignment-krishna423-master/q2/src/Main_file
 
@@ -25,7 +25,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q3
+# for q3
 
 $cd ppl-assignment-krishna423-master/q3/src/Main_file
 
@@ -35,7 +35,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q4
+# for q4
 
 $cd ppl-assignment-krishna423-master/q4/src/Main_file
 
@@ -45,7 +45,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q5
+# for q5
 
 $cd ppl-assignment-krishna423-master/q5/src/Main_file
 
@@ -55,7 +55,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q6
+# for q6
 
 $cd ppl-assignment-krishna423-master/q6/src/Main_file
 
@@ -65,7 +65,7 @@ $cd ..
 
 $java Main_file.Main_file
 
-for q7
+# for q7
 
 $cd ppl-assignment-krishna423-master/q7/src/Main_file
 
