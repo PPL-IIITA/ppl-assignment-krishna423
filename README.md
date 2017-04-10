@@ -5,9 +5,9 @@ Java
 # Tested on:
 Kali linux
 # Build(on Terminal)
-ques
+q1,q2,q3,q4,q5,q7
 
-$cd ppl-assignment-krishna423-master/ques/src/Main_file
+$cd ppl-assignment-krishna423-master/q1/src/Main_file
 
 $javac *.java
 
@@ -15,15 +15,12 @@ $cd ..
 
 $java Main_file.Main_file
 # CSV Files:
-$cd ppl-assignment-krishna423-master/ques/src
-
+$cd ppl-assignment-krishna423-master/q1/src
 $cat couple.csv
-
 $cat boys_data.csv
-
 $cat girls_data.csv
-
 $cat gift_data.csv
 # Class-Diagram:
-class.pdf
+$cd ppl-assignment-krishna423-master/q1
+$ls
 
