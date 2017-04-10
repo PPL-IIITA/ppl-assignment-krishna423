@@ -38,7 +38,10 @@ public class Main_file {
     }
     
 }
+
  class common{
- String name,status,type;
- int attractiveness,intelligence,budget,happiness; 
-}
+ 
+     String name,status,type;
+     int attractiveness,intelligence,budget,happiness; 
+ 
+ }

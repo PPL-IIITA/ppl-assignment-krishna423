@@ -188,7 +188,7 @@ public class testing_utility {
                     cpl[j].tot_com=Math.abs(cpl[j].intelligence-b[a].intelligence)+Math.abs(cpl[j].attractiveness-b[a].attractiveness);
                 }
         
-      girls tmp =new girls();
+       girls tmp =new girls();
         for(i=0;i<cpl_num-1;i++){
             for(j=i+1;j<cpl_num;j++){
                 if(cpl[i].tot_happy<cpl[j].tot_happy){
@@ -245,6 +245,7 @@ public class testing_utility {
             catch(Exception ee)
             {}    
         
-        }     
+        }  
+        
 }         
      

@@ -12,12 +12,13 @@ import java.util.*;
  *
  * @author root
  */
-public class Csv_generate extends common{
+public class Csv_generate extends common {
     
     void boys_gen(int count){
-//    common ob=new common();    
+        
         try{
             FileWriter boy_file = new FileWriter("boys_data.csv");
+            status="single";
             int i,req_attractivenes,tp;
             Random rand =new Random();
             for(i=0;i<count;i++){
@@ -25,7 +26,6 @@ public class Csv_generate extends common{
                 intelligence=rand.nextInt(10)+1;
                 req_attractivenes=rand.nextInt(4)+1;
                 budget =rand.nextInt(400)+99;
-                status="single";
                 tp=rand.nextInt(3);
                 switch (tp) {
                 case 0:
@@ -49,11 +49,10 @@ public class Csv_generate extends common{
        }
       
     void girls_gen(int count){
-     //   common ob1=new common();
         try{
             FileWriter girl_file = new FileWriter("girls_data.csv");
             status="single";
-            int i,attractiveness,intelligence,req_attractivenes,maintenancebudget,tp;
+            int i,req_attractivenes,tp;
             Random rand =new Random();
             for(i=0;i<count;i++){
                 attractiveness=rand.nextInt(10)+1;
@@ -87,7 +86,7 @@ public class Csv_generate extends common{
             Random rand =new Random();
             for(i=0;i<count;i++){
                 sort_gift[i]=new gift();
-                sort_gift[i].value=rand.nextInt(140)+1;
+                sort_gift[i].value=rand.nextInt(120)+1;
                 sort_gift[i].price=rand.nextInt(150)+1;
                 tp=rand.nextInt(3);
                 switch (tp) {

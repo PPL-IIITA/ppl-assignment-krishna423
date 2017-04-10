@@ -11,6 +11,6 @@ package Main_file;
  */
 public class girls {
     String name,status,type;
-        int attractiveness,intelligence,req_attractivenes,maintenancebudget,happiness = 0,assign_boy,gift,tot_happy,tot_com;
+        int attractiveness,intelligence,req_attractivenes,maintenancebudget,happiness = 0,assign_boy,got_gift,tot_happy,tot_com;
     
 }
