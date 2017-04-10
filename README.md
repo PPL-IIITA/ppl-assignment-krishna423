@@ -93,7 +93,37 @@ $java Main_file.Main_file
 $cat couple.csv
 
 # Class-Diagram:
+# forq1
 $cd ppl-assignment-krishna423-master/q1
 
 $ls
+# forq2
+$cd ppl-assignment-krishna423-master/q2
+
+$ls
+# forq2
+$cd ppl-assignment-krishna423-master/q2
+
+$ls
+# forq3
+$cd ppl-assignment-krishna423-master/q3
+
+$ls
+# forq4
+$cd ppl-assignment-krishna423-master/q4
+
+$ls
+# forq5
+$cd ppl-assignment-krishna423-master/q5
+
+$ls
+# forq6
+$cd ppl-assignment-krishna423-master/q6
+
+$ls
+# forq7
+$cd ppl-assignment-krishna423-master/q7
+
+$ls
+<a hreaf > https://github.com/PPL-IIITA/ppl-assignment-krishna423/edit/master/README.md <a hreaf>
 
