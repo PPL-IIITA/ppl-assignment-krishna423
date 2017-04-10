@@ -1,13 +1,73 @@
 # ppl-assignment-krishna423
-ppl-assignment-krishna423 created by GitHub Classroom
+
 # Language
 Java
 # Tested on:
 Kali linux
 # Build(on Terminal)
-q1,q2,q3,q4,q5,q6,q7
+for q1
 
 $cd ppl-assignment-krishna423-master/q1/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q2
+
+$cd ppl-assignment-krishna423-master/q2/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q3
+
+$cd ppl-assignment-krishna423-master/q3/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q4
+
+$cd ppl-assignment-krishna423-master/q4/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q5
+
+$cd ppl-assignment-krishna423-master/q5/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q6
+
+$cd ppl-assignment-krishna423-master/q6/src/Main_file
+
+$javac *.java
+
+$cd ..
+
+$java Main_file.Main_file
+
+for q7
+
+$cd ppl-assignment-krishna423-master/q7/src/Main_file
 
 $javac *.java
 
