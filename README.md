@@ -78,6 +78,7 @@ $cd ..
 
 $java Main_file.Main_file
 
+$cat after_breakup_couple.csv
 
 # for q7
 
