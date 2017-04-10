@@ -1,5 +1,75 @@
-        happy couple   
-B12-------------------G13
+        Compatible couple   
+B3-------------------G9
+            gifts exchanged          
+3 , 10 , Utility
+4 , 128 , Utility
+4 , 93 , Essential
+4 , 81 , Utility
+5 , 106 , Luxury
+5 , 3 , Luxury
+7 , 56 , Essential
+8 , 25 , Utility
+11 , 129 , Essential
+12 , 97 , Essential
+15 , 51 , Essential
+15 , 54 , Utility
+17 , 75 , Essential
+19 , 79 , Luxury
+21 , 121 , Luxury
+B5-------------------G18
+            gifts exchanged          
+3 , 10 , Utility
+4 , 128 , Utility
+4 , 93 , Essential
+4 , 81 , Utility
+5 , 106 , Luxury
+5 , 3 , Luxury
+7 , 56 , Essential
+8 , 25 , Utility
+11 , 129 , Essential
+12 , 97 , Essential
+15 , 51 , Essential
+15 , 54 , Utility
+17 , 75 , Essential
+19 , 79 , Luxury
+21 , 121 , Luxury
+B6-------------------G22
+            gifts exchanged          
+3 , 10 , Utility
+4 , 128 , Utility
+4 , 93 , Essential
+4 , 81 , Utility
+5 , 106 , Luxury
+5 , 3 , Luxury
+7 , 56 , Essential
+8 , 25 , Utility
+11 , 129 , Essential
+12 , 97 , Essential
+15 , 51 , Essential
+15 , 54 , Utility
+B0-------------------G0
+            gifts exchanged          
+3 , 10 , Utility
+4 , 128 , Utility
+4 , 93 , Essential
+4 , 81 , Utility
+5 , 106 , Luxury
+5 , 3 , Luxury
+7 , 56 , Essential
+8 , 25 , Utility
+11 , 129 , Essential
+12 , 97 , Essential
+15 , 51 , Essential
+15 , 54 , Utility
+17 , 75 , Essential
+19 , 79 , Luxury
+21 , 121 , Luxury
+21 , 103 , Luxury
+22 , 110 , Luxury
+25 , 62 , Luxury
+25 , 1 , Utility
+27 , 125 , Utility
+B33-------------------G38
             gifts exchanged          
 3 , 10 , Utility
 4 , 128 , Utility
@@ -24,7 +94,7 @@ B12-------------------G13
 28 , 91 , Utility
 32 , 78 , Utility
 32 , 95 , Essential
-B46-------------------G44
+B23-------------------G26
             gifts exchanged          
 3 , 10 , Utility
 4 , 128 , Utility
@@ -49,73 +119,6 @@ B46-------------------G44
 28 , 91 , Utility
 32 , 78 , Utility
 32 , 95 , Essential
-36 , 42 , Utility
-B10-------------------G23
-            gifts exchanged          
-3 , 10 , Utility
-4 , 128 , Utility
-4 , 93 , Essential
-4 , 81 , Utility
-5 , 106 , Luxury
-5 , 3 , Luxury
-7 , 56 , Essential
-8 , 25 , Utility
-11 , 129 , Essential
-12 , 97 , Essential
-15 , 51 , Essential
-15 , 54 , Utility
-17 , 75 , Essential
-19 , 79 , Luxury
-21 , 121 , Luxury
-21 , 103 , Luxury
-22 , 110 , Luxury
-25 , 62 , Luxury
-B14-------------------G32
-            gifts exchanged          
-3 , 10 , Utility
-4 , 128 , Utility
-4 , 93 , Essential
-4 , 81 , Utility
-5 , 106 , Luxury
-5 , 3 , Luxury
-7 , 56 , Essential
-8 , 25 , Utility
-11 , 129 , Essential
-12 , 97 , Essential
-15 , 51 , Essential
-15 , 54 , Utility
-17 , 75 , Essential
-19 , 79 , Luxury
-21 , 121 , Luxury
-21 , 103 , Luxury
-22 , 110 , Luxury
-25 , 62 , Luxury
-25 , 1 , Utility
-27 , 125 , Utility
-B8-------------------G15
-            gifts exchanged          
-3 , 10 , Utility
-4 , 128 , Utility
-4 , 93 , Essential
-4 , 81 , Utility
-5 , 106 , Luxury
-5 , 3 , Luxury
-7 , 56 , Essential
-8 , 25 , Utility
-11 , 129 , Essential
-12 , 97 , Essential
-15 , 51 , Essential
-15 , 54 , Utility
-17 , 75 , Essential
-19 , 79 , Luxury
-21 , 121 , Luxury
-21 , 103 , Luxury
-22 , 110 , Luxury
-25 , 62 , Luxury
-25 , 1 , Utility
-27 , 125 , Utility
-28 , 91 , Utility
-32 , 78 , Utility
 B22-------------------G5
             gifts exchanged          
 3 , 10 , Utility
@@ -142,33 +145,7 @@ B22-------------------G5
 32 , 78 , Utility
 32 , 95 , Essential
 36 , 42 , Utility
-B57-------------------G46
-            gifts exchanged          
-3 , 10 , Utility
-4 , 128 , Utility
-4 , 93 , Essential
-4 , 81 , Utility
-5 , 106 , Luxury
-5 , 3 , Luxury
-7 , 56 , Essential
-8 , 25 , Utility
-11 , 129 , Essential
-12 , 97 , Essential
-15 , 51 , Essential
-15 , 54 , Utility
-17 , 75 , Essential
-19 , 79 , Luxury
-21 , 121 , Luxury
-21 , 103 , Luxury
-22 , 110 , Luxury
-25 , 62 , Luxury
-25 , 1 , Utility
-27 , 125 , Utility
-28 , 91 , Utility
-32 , 78 , Utility
-32 , 95 , Essential
-36 , 42 , Utility
-B24-------------------G47
+B32-------------------G41
             gifts exchanged          
 3 , 10 , Utility
 4 , 128 , Utility
