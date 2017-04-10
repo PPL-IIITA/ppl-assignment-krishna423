@@ -32,6 +32,8 @@ $cd ..
 
 $java Main_file.Main_file
 
+$cat Happy_couple.csv 
+
 # for q3
 
 $cd ppl-assignment-krishna423-master/q3/src/Main_file
@@ -41,6 +43,8 @@ $javac *.java
 $cd ..
 
 $java Main_file.Main_file
+
+$$cat Happy_couple.csv 
 
 # for q4
 
@@ -52,6 +56,7 @@ $cd ..
 
 $java Main_file.Main_file
 
+Scat after_breakup_couple.csv 
 # for q5
 
 $cd ppl-assignment-krishna423-master/q5/src/Main_file
@@ -62,6 +67,7 @@ $cd ..
 
 $java Main_file.Main_file
 
+$cat Happy_couple.csv
 # for q6
 
 $cd ppl-assignment-krishna423-master/q6/src/Main_file
@@ -72,6 +78,7 @@ $cd ..
 
 $java Main_file.Main_file
 
+
 # for q7
 
 $cd ppl-assignment-krishna423-master/q7/src/Main_file
@@ -81,17 +88,8 @@ $javac *.java
 $cd ..
 
 $java Main_file.Main_file
-# CSV Files:
-
-$cd ppl-assignment-krishna423-master/q1/src
 
 $cat couple.csv
-
-$cat boys_data.csv
-
-$cat girls_data.csv
-
-$cat gift_data.csv
 
 # Class-Diagram:
 $cd ppl-assignment-krishna423-master/q1
