@@ -125,5 +125,4 @@ $ls
 $cd ppl-assignment-krishna423-master/q7
 
 $ls
-<a hreaf > https://github.com/PPL-IIITA/ppl-assignment-krishna423/edit/master/README.md <a hreaf>
 
