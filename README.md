@@ -25,7 +25,9 @@ $cat boys_data.csv
 $cat girls_data.csv
 
 $cat gift_data.csv
+
 # Class-Diagram:
 $cd ppl-assignment-krishna423-master/q1
+
 $ls
 
