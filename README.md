@@ -34,6 +34,7 @@ $java Main_file.Main_file
 
 $cat Happy_couple.csv 
 
+$cat Compatible_couple.csv
 # for q3
 
 $cd ppl-assignment-krishna423-master/q3/src/Main_file
@@ -44,8 +45,9 @@ $cd ..
 
 $java Main_file.Main_file
 
-$$cat Happy_couple.csv 
+$cat Happy_couple.csv 
 
+$cat Compatible_couple.csv
 # for q4
 
 $cd ppl-assignment-krishna423-master/q4/src/Main_file
