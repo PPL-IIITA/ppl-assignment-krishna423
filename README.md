@@ -15,6 +15,13 @@ $cd ..
 
 $java Main_file.Main_file
 
+$ls
+
+$cat boys_data.csv
+
+$cat girls_data.csv
+
+$cat couple.csv
 # for q2
 
 $cd ppl-assignment-krishna423-master/q2/src/Main_file
